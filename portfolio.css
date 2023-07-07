@@ -13,6 +13,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 nav > ul{
     display: flex;
@@ -35,4 +36,105 @@ nav a{
     border: 0px;
     font-size: 20px;
     font-weight: 700;
+}
+.header-container{
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .profile-pic{
+    width: 400px;
+}
+.banner-text{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-style{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+}
+/*********** main section start now ************** */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px
+}
+/* about section start now  */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-title{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description{
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 0px 20px;
+}
+/* .info-description{
+    font-size: 20px;
+} */
+#what-id{
+    padding: 30 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 40px;
+}
+.skill{
+    width: 267px;
+    height: 377px; 
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    justify-content: space-between;
+}
+.skill-description{
+    color:  #757575;
+ font-size: 16px;
+ font-weight: 400;
+  padding: 10px 20px;
+  margin-top: 20px;
+
 }
